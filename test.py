@@ -57,4 +57,5 @@ def addSquares(iRange):
     for i in range(iRange):
         square(length, 90)
         length += 25
+        t.left(5)
 addSquares(60)
