@@ -52,9 +52,13 @@ def doubleSquares(iRange):
 for i in range(iRange):
         square(length, 90)
         length = length * 2
+        length += 25
 doubleSquares(100)
 def addSquares(iRange):
     length = 25
+    addSquares(600)
+
+   
 
 
 
