@@ -48,7 +48,6 @@ def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
-triangle(100,90)
 def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
