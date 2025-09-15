@@ -41,12 +41,12 @@ for i in range(3):
     print(i)
     sidelength = 100
 rotate = 90
-t.speed(1)
+t.speed(600)
 def square (x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
-square(100,90)
+"""square(100,90)
 def doubleSquares(iRange):
     length = 25
 for i in range(iRange):
@@ -54,10 +54,16 @@ for i in range(iRange):
         length = length * 2
         length += 25
 doubleSquares(100)
+def addSquares(iRange):"""
+    length = 25:
+    addSquares(60)
 def addSquares(iRange):
     length = 25
-    addSquares(600)
-
+    for i in range(iRange):
+        square(length, 90)
+        length += 25
+   
+addSquares(60)
    
 
 
