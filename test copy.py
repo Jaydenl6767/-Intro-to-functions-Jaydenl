@@ -1,6 +1,7 @@
 import turtle
 t=turtle
 t.shape('turtle')
+t.speed(100)
 """def square(x):
     t.forward(x)
     t.left(90)
@@ -39,12 +40,12 @@ def rectangle(x):
 rectangle(200)"""
 for i in range(3):
     print(i)
-    for i in range(4):
+for i in range(4):
     t.forward(100)
     t.left(90)
     sidelength = 100
 rotate = 90
-def square(x,y):
+"""def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
@@ -59,8 +60,23 @@ def addSquares(iRange):
     for i in range(iRange):
         square(length, 90)
         length += 25
-        t.left(5)
-addSquares(60)
+addSquares(60)"""
+
+def star(x):
+    for i in range(5):
+        t.forward(x)
+        t.left(144)
+
+def many_stars():
+    length = 25
+    for i in range(60):
+        star(length)
+        t.right(5)
+        length += 5
+
+
+
+
 
 
 
